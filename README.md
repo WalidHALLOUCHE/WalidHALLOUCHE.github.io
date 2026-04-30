@@ -1,6 +1,12 @@
-# Portfolio Professionnel - Walid HALLOUCHE
+# 🌐 PORTFOLIO PROFESSIONNEL - WALID HALLOUCHE
 
-Portfolio moderne et responsive pour Data Analyst / BI Analyst spécialisé Power BI, Power Platform, Python, SQL et IA.
+> **Data Analyst / BI Analyst** | Power BI • Power Platform • Python • SQL • Azure • IA
+
+👉 **[VOIR LE PORTFOLIO EN LIGNE](https://walidhallouche.github.io/)** 👈
+
+---
+
+**Portfolio moderne, responsive et professionnel** présentant 10 projets GitHub réels avec contexte métier, défis résolus et stack technique détaillée.
 
 ## 🎯 Objectif
 
