@@ -621,10 +621,6 @@ h3 {
   .category-header {
     grid-column: span 1;
   }
-
-  .cert-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /* ===== RESPONSIVE MOBILE ===== */
@@ -636,15 +632,6 @@ h3 {
   .category-header {
     margin-top: 24px;
     margin-bottom: 10px;
-  }
-
-  .cert-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .cert-header {
-    flex-direction: column;
-    gap: 6px;
   }
 }
 
@@ -696,79 +683,23 @@ h3 {
 }
 
 .cert-item {
-  border: 2px solid var(--line);
+  border: 1px solid var(--line);
   background: var(--surface);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   padding: 20px;
   border-radius: var(--radius-md);
   display: grid;
-  gap: 10px;
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.cert-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: var(--radius-md);
-  z-index: -1;
-}
-
-.cert-item:hover {
-  border-color: var(--accent);
-  background: var(--surface);
-  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
-  transform: translateY(-4px);
-}
-
-.cert-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.cert-icon {
-  font-size: 1.5rem;
-  display: inline-block;
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
-.cert-item:hover .cert-icon {
-  opacity: 1;
-  transform: scale(1.2) rotate(5deg);
+  gap: 6px;
 }
 
 .cert-item strong {
   color: var(--text);
   font-size: 0.95rem;
-  transition: color 0.3s ease;
-}
-
-.cert-item:hover strong {
-  color: var(--accent);
 }
 
 .cert-item span {
   color: var(--muted-2);
   font-size: 0.85rem;
-  transition: color 0.3s ease;
-}
-
-.cert-item:hover span {
-  color: var(--muted);
 }
 
 .cert-list {
@@ -932,19 +863,5 @@ h3 {
   .footer-grid {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  /* Certifications responsive */
-  .cert-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .cert-header {
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .cert-icon {
-    font-size: 1.2rem;
   }
 }
