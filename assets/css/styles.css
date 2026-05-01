@@ -550,6 +550,93 @@ h3 {
 
 .project-link {
   display: inline-flex;
+  align-items: center;
+  color: var(--accent-2);
+  font-weight: 700;
+  transition: gap 0.2s ease;
+}
+
+.project-link:hover {
+  gap: 6px;
+}
+
+/* ===== CATEGORY HEADERS ===== */
+.category-header {
+  grid-column: span 2;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.category-header h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.4rem;
+  color: var(--text);
+  letter-spacing: -0.045em;
+  font-weight: 700;
+}
+
+.category-header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* ===== SPECIALIZED BADGES ===== */
+.badge-ia {
+  background: rgba(139, 92, 246, 0.12) !important;
+  border-color: rgba(139, 92, 246, 0.3) !important;
+  color: #c4b5fd !important;
+}
+
+.badge-priority {
+  background: rgba(250, 204, 21, 0.15) !important;
+  border-color: rgba(250, 204, 21, 0.35) !important;
+  color: #fef3c7 !important;
+  font-weight: 700 !important;
+}
+
+.project-featured-ia {
+  border-color: rgba(139, 92, 246, 0.25) !important;
+}
+
+.project-featured-ia .project-header {
+  border-bottom-color: rgba(139, 92, 246, 0.2) !important;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1024px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card.featured {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
+
+  .category-header {
+    grid-column: span 1;
+  }
+}
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+  .category-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .category-header {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.project-link {
+  display: inline-flex;
   color: var(--accent-2);
   font-weight: 700;
   font-size: 0.95rem;
