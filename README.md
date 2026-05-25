@@ -6,14 +6,14 @@
 
 ---
 
-**Portfolio moderne, responsive et professionnel** présentant 10 projets GitHub réels avec contexte métier, défis résolus et stack technique détaillée.
+**Portfolio moderne, responsive et professionnel** présentant 12 projets GitHub réels avec contexte métier, défis résolus et stack technique détaillée.
 
 ## 🎯 Objectif
 
 Ce portfolio présente :
-- **Profil professionnel** : Data Analyst / BI Analyst avec 2+ ans d'expérience
+- **Profil professionnel** : Data Analyst / BI Analyst avec +3 ans d'expérience
 - **Expertise** : Power BI, DAX, Power Apps, Python, SQL, Azure, IA/LLM
-- **10 projets GitHub** : Cas métiers réalistes avec contexte, problèmes résolus et stack technique
+- **12 projets GitHub** : Cas métiers réalistes avec contexte, problèmes résolus et stack technique
 - **Expérience** : Alternances et projets de fin d'études
 - **Diplômes & Certifications** : Master Big Data & IA + Certifications professionnelles
 - **Contact** : Disponible pour CDI en Île-de-France
@@ -93,14 +93,14 @@ portfolio_walid/
 
 ### 2. **Stats**
 - 25% gain productivité
-- 2+ ans d'expérience
+- +3 ans d'expérience
 - 360° couverture data
-- 10 projets GitHub
+- 12 projets GitHub
 
 ### 3. **Expertise**
 - 4 cartes : BI & Reporting, Power Platform, Data & Automatisation, Cloud & IA
 
-### 4. **10 Projets GitHub**
+### 4. **12 Projets GitHub**
 Chaque projet affiche :
 - Titre clair
 - Badges de catégorie
@@ -112,15 +112,17 @@ Chaque projet affiche :
 
 **Projets inclus** :
 1. **Power BI E-Commerce Performance** - Modèle dimensionnel, DAX, RLS
-2. **Power Platform RH Automation Demo** - Power Apps, Power Automate, Dataverse
-3. **SmartRetail Sync** - Pipeline ETL SQL, synchronisation stocks
-4. **Assistant SAV IA + RAG + Streamlit** - NLP, LLM, Azure OpenAI, Streamlit
-5. **Power BI Mémoire SAV** - Dashboards d'impact IA, KPI
-6. **Contrôle Qualité Données RH** - SQL nettoyage, Python EDA
-7. **SNCF Code VBA** - Automatisation Excel, macros
-8. **FinOps Project** - Azure Cost Management, optimisation
-9. **K-Means Clustering** - Machine Learning, segmentation
-10. **Steganosaure** - Stéganographie, sécurité, cryptographie
+2. **Cockpit financier Power BI - Énergies renouvelables** - KPI financiers, CAPEX, EBITDA, ROI, pilotage portefeuille solaire
+3. **Agent IA Data Analyst** - Multi-agents, analyse CSV, KPI fiables, recommandations business
+4. **Power Platform RH Automation Demo** - Power Apps, Power Automate, Dataverse
+5. **SmartRetail Sync** - Pipeline ETL SQL, synchronisation stocks
+6. **Assistant SAV IA + RAG + Streamlit** - NLP, LLM, Azure OpenAI, Streamlit
+7. **Power BI Mémoire SAV** - Dashboards d'impact IA, KPI
+8. **Contrôle Qualité Données RH** - SQL nettoyage, Python EDA
+9. **SNCF Code VBA** - Automatisation Excel, macros
+10. **FinOps Project** - Azure Cost Management, optimisation
+11. **K-Means Clustering** - Machine Learning, segmentation
+12. **Steganosaure** - Stéganographie, sécurité, cryptographie
 
 ### 5. **Expérience**
 - Timeline : 2024-2026 (SNCF), 2025 (Projet HETIC), 2020-2022 (Air Algérie)
@@ -241,5 +243,5 @@ Portfolio personnel - Libre d'utilisation personnelle. Vous pouvez l'adapter à 
 
 ---
 
-Dernière mise à jour : 30 avril 2026  
-Version : 2.0 (Portfolio complet avec 10 projets GitHub)
+Dernière mise à jour : 25 mai 2026
+Version : 2.1 (Portfolio complet avec 12 projets GitHub)
